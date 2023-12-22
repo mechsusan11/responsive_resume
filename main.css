@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#skills{
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.obj2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.skill{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    background-color:goldenrod;
+    margin: auto;
+} 
+.objective{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.container-fluid{
+    background-color:rgba(128, 128, 128, 0.395);
+    padding: 25px;
+}
+.carousel-inner{
+    margin-top: 6rem;
+}
+#courses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 6rem;
+}
+.contact{
+    text-align: center;
+    margin-top: 6rem;
+}
+.foot{
+    background-color:goldenrod;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 6rem;
+}
